@@ -8,7 +8,7 @@ from singlylinkedlist import *
 from doublylinkedlist import *
 
 if __name__ == '__main__':
-    # Initializing Singly Linked List
+    # Singly Linked List
     sl1 = SinglyLinkedList()
     # Asking for input, and creating the nodes of the SLL
     elements = input("Enter the elements of the Singly Linked List: ").split()
@@ -25,7 +25,7 @@ if __name__ == '__main__':
     sl1.delete_duplicates()
     sl1.print_forward()
 
-    # Initializing Doubly Linked List
+    # Doubly Linked List
     dl1 = DoublyLinkedList()
     dl1.insert_begin(10)
     dl1.insert_begin(20)
